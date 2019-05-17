@@ -1,2 +1,2 @@
 # Personal website
-<tnguyen6106.github.io>
+<https://tnguyen6106.github.io/>
