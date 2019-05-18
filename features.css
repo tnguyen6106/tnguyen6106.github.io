@@ -1,0 +1,62 @@
+
+.navbar {
+    position: static;
+    margin-bottom:30px;
+}
+
+div.jumbotron {
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 0.3rem;
+}
+
+.card {
+    border: none;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-right: -100px;
+}
+
+.card-footer {
+    background:0%;
+    border-top: 0%;
+}
+
+.card-group {
+    margin-top: -20px;
+}
+
+.footer__icon {
+    border-radius: 5px;
+    height: 25px;
+    /*margin: 1em;*/
+    /*text-align: center;
+    display: block*/
+}
+
+.github__icon {
+    height: 25px;
+    width: 25px;
+    /*display: block;*/
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    padding: 1em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/*.card-body#heading1 {
+    margin-left: 15px;
+}
+
+.card-body#heading2 {
+    margin-left: -23px;
+}*/
+
+/*.btn {
+    padding-right: 50px;
+    width: 141px;
+}*/

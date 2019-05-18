@@ -1,11 +1,145 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <p>I'm hosted on GitHub</p
-  </body>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css" />
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="features.css" class="href">
+		<!--<style type="text/css">
+			.navbar {
+				position: static;
+				margin-bottom:30px;
+			}
+
+			div.jumbotron {
+				padding-left: 32px;
+				padding-right: 32px;
+				border-radius: 0.3rem;
+			}
+
+			.card {
+				border: none;
+				margin-left: 15px;
+				padding-right: -100px;
+			}
+
+			.card-footer {
+				background:0%;
+				border-top: 0%;
+			}
+
+			.card-group {
+				margin-top: -20px;
+			}
+
+			.card-body#heading1 {
+				margin-left: 15px;
+			}
+
+			.card-body#heading2 {
+				margin-left: -23px;
+			}
+
+			.btn {
+				padding-right: 50px;
+				width: 141px;
+			}
+			
+		</style>-->
+	</head>
+	<body>
+  	<!-- this exercise looks like more work than it actually is, since you can copy and paste a majority of it. you might ask yourself in this regard why there is a gap between the navbar and the jumbotron. this is because the navbar is set to static and not to fixed. -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+				<a class="navbar-brand" href="#">hello world</a>
+				<div class="navbar-collapse">
+					<ul class="navbar-nav">
+						<li class="nav-item active"><a class="nav-link" href="#">home</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">about</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+					</ul>
+
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a href="#" class="nav-link">register</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">login</a></li>
+					</ul>	
+				</div>
+    </nav>
+    <!--Page Contents-->
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid my-4">
+        <div class="container mr-auto">
+          <h1>brace yourself</h1>
+          <p>this exercise looks like more work than it actually is, since you can copy and paste a majority of it. you might ask yourself in this regard why there is a gap between the navbar and the jumbotron. this is because the navbar is set to static and not to fixed.</p> 
+        </div>
+      </div>
+
+      <div class="card-group row">	
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">heading</h2>
+              <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
+              <a href="" class="btn btn-primary">more details &raquo;</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">heading</h2>
+              <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
+              <a href="" class="btn btn-primary">more details &raquo;</a>
+            </div>
+          </div>
+        </div><div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">heading</h2>
+              <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
+              <a href="" class="btn btn-primary">more details &raquo;</a>
+            </div>
+          </div>
+        </div>
+        <!--<div class="card-body col-sm-4" id="heading1">
+          <div class="card border-light">
+            <h2 class="card-title">heading</h2>
+            <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
+            <button type="button" class="btn btn-primary btn-lg">more details &raquo;</button>
+          </div>
+        </div>-->
+        <!--<div class="card-body col-sm-4" id="heading2">
+          <div class="card border-light">
+            <h2 class="card-title">heading</h2>
+            <p>curabitur malesuada gravida lacus eget iaculis. duis diam magna, gravida ac posuere sit amet, sollicitudin non justo. praesent pretium tristique risus. donec feugiat, tortor ac semper laoreet, enim arcu tempor nisi, eu aliquam ex nisl elementum ex.</p>
+            <button type="button" class="btn btn-secondary btn-lg">more details &raquo;</button>		
+          </div>
+        </div>
+
+        <div class="card-body col-sm-4" id="heading3">
+          <div class="card border-light">
+            <h2 class="card-title">heading</h2>
+            <p>integer posuere sed justo vel dignissim. pellentesque elementum aliquam aliquet. nullam quis consectetur libero, et cursus nunc. donec iaculis enim a velit iaculis dictum. aliquam erat volutpat.</p>	
+            <button type="button" class="btn btn-secondary btn-lg">more details &raquo;</button>
+          </div>
+        </div> -->
+        <!--<div class="card-footer col-sm-12">some message in the footer</div>-->
+
+      </div>
+    </div>
+    <!--Container-->
+    <footer class="py-4 bg-dark">
+      <div class="container text-center">
+        <a href="https://github.com/tnguyen6106" target="_blank" rel="noopener" class="footer__icon">
+          <img src="../tnguyen6106.github.io/assets/github.svg" alt="github" class="github__icon">
+        </a>
+      </div>
+    </footer>
+
+	</body>
 </html>
