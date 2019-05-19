@@ -11,51 +11,10 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="features.css" class="href">
-		<!--<style type="text/css">
-			.navbar {
-				position: static;
-				margin-bottom:30px;
-			}
-
-			div.jumbotron {
-				padding-left: 32px;
-				padding-right: 32px;
-				border-radius: 0.3rem;
-			}
-
-			.card {
-				border: none;
-				margin-left: 15px;
-				padding-right: -100px;
-			}
-
-			.card-footer {
-				background:0%;
-				border-top: 0%;
-			}
-
-			.card-group {
-				margin-top: -20px;
-			}
-
-			.card-body#heading1 {
-				margin-left: 15px;
-			}
-
-			.card-body#heading2 {
-				margin-left: -23px;
-			}
-
-			.btn {
-				padding-right: 50px;
-				width: 141px;
-			}
-			
-		</style>-->
-	</head>
-	<body>
-  	<!-- this exercise looks like more work than it actually is, since you can copy and paste a majority of it. you might ask yourself in this regard why there is a gap between the navbar and the jumbotron. this is because the navbar is set to static and not to fixed. -->
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		
+  </head>
+	<body data-spy="scroll" data-target="#navigation-bar" data-offset="50">
+		<nav id="navigation-bar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 				<a class="navbar-brand" href="#">hello world</a>
 				<div class="navbar-collapse">
 					<ul class="navbar-nav">
@@ -71,65 +30,62 @@
 				</div>
     </nav>
     <!--Page Contents-->
+
+    
     <div class="container">
-      <div class="jumbotron jumbotron-fluid my-4">
-        <div class="container mr-auto">
-          <h1 class="projectTitle">Projects</h1>
-        </div>
-      </div>
-
-      <div class="card-group row">	
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-body">
-              <h2 class="card-title">heading</h2>
-              <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
-              <a href="" class="btn btn-primary">more details &raquo;</a>
-            </div>
+      <section class="about_container" id="about">
+        <div class="container-fluid">
+          <h1 class="about_title">About me</h1>
+          <p>Aspiring Software Developer</p>
+          <div class="about_description">
+            <p>
+              I'm currently a senior student studying at Portland State University.
+              I have experience in working with
+              <br>
+              <span class="make_bold">C++, Java, and Python.</span>
+            </p>
+            <p>On my free time, I enjoy playing video games, reading science related articles, and building fun projects.</p>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-body">
-              <h2 class="card-title">heading</h2>
-              <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
-              <a href="" class="btn btn-primary">more details &raquo;</a>
-            </div>
-          </div>
-        </div><div class="col-sm-4">
-          <div class="card">
-            <div class="card-body">
-              <h2 class="card-title">heading</h2>
-              <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
-              <a href="" class="btn btn-primary">more details &raquo;</a>
-            </div>
-          </div>
-        </div>
-        <!--<div class="card-body col-sm-4" id="heading1">
-          <div class="card border-light">
-            <h2 class="card-title">heading</h2>
-            <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
-            <button type="button" class="btn btn-primary btn-lg">more details &raquo;</button>
-          </div>
-        </div>-->
-        <!--<div class="card-body col-sm-4" id="heading2">
-          <div class="card border-light">
-            <h2 class="card-title">heading</h2>
-            <p>curabitur malesuada gravida lacus eget iaculis. duis diam magna, gravida ac posuere sit amet, sollicitudin non justo. praesent pretium tristique risus. donec feugiat, tortor ac semper laoreet, enim arcu tempor nisi, eu aliquam ex nisl elementum ex.</p>
-            <button type="button" class="btn btn-secondary btn-lg">more details &raquo;</button>		
+      </section>
+    
+      <section class="content_projects" id="projects">
+        <div class="jumbotron jumbotron-fluid my-4">
+          <div class="container mr-auto">
+            <h1 class="projectTitle">Projects</h1>
           </div>
         </div>
 
-        <div class="card-body col-sm-4" id="heading3">
-          <div class="card border-light">
-            <h2 class="card-title">heading</h2>
-            <p>integer posuere sed justo vel dignissim. pellentesque elementum aliquam aliquet. nullam quis consectetur libero, et cursus nunc. donec iaculis enim a velit iaculis dictum. aliquam erat volutpat.</p>	
-            <button type="button" class="btn btn-secondary btn-lg">more details &raquo;</button>
+        <div class="card-group row">	
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">heading</h2>
+                <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
+                <a href="" class="btn btn-primary">more details &raquo;</a>
+              </div>
+            </div>
           </div>
-        </div> -->
-        <!--<div class="card-footer col-sm-12">some message in the footer</div>-->
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">heading</h2>
+                <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
+                <a href="" class="btn btn-primary">more details &raquo;</a>
+              </div>
+            </div>
+          </div><div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">heading</h2>
+                <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
+                <a href="" class="btn btn-primary">more details &raquo;</a>
+              </div>
+            </div>
+          </div>
 
-      </div>
+        </div>
+      </section>
     </div>
     <!--Container-->
     <footer class="py-4 bg-dark">

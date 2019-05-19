@@ -1,6 +1,19 @@
 
+.about_container {
+    background-color: white;
+    padding: 17rem 0 12rem 0;
+}
+.about_title {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.about_description {
+    padding-top: 1rem;
+}
 .navbar {
-    position: static;
+    position: fixed;
     margin-bottom:30px;
 }
 
@@ -11,10 +24,10 @@ div.jumbotron {
 }
 
 .card {
-    border: none;
     margin-top: 20px;
-    margin-left: 15px;
-    padding-right: -100px;
+    margin-left: 0px;
+    margin-bottom: 3rem;
+    /*padding-right: -100px;*/
 }
 
 .card-footer {
@@ -42,7 +55,7 @@ div.jumbotron {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     padding: 1em;
     left: 0;
     right: 0;
@@ -52,6 +65,14 @@ footer {
 .projectTitle {
     font-size: 5rem;
     font-weight: 700;
+}
+
+body {
+    position: relative;
+}
+
+.make_bold {
+    font-weight: bold;
 }
 /*.card-body#heading1 {
     margin-left: 15px;
