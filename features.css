@@ -1,7 +1,7 @@
 
 .about_container {
     background-color: white;
-    padding: 17rem 0 12rem 0;
+    padding: 17rem 0 13rem 0;
 }
 .about_title {
     font-size: 5rem;
@@ -21,6 +21,10 @@ div.jumbotron {
     padding-left: 32px;
     padding-right: 32px;
     border-radius: 0.3rem;
+}
+
+.content_projects {
+    margin-top: 50px;
 }
 
 .card {
