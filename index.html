@@ -14,20 +14,22 @@
 		
   </head>
 	<body data-spy="scroll" data-target="#navigation-bar" data-offset="50">
-		<nav id="navigation-bar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-				<a class="navbar-brand" href="#">hello world</a>
+		<nav id="navigation-bar" class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
+				<a class="navbar-brand" href="#">Welcome</a>
 				<div class="navbar-collapse">
-					<ul class="navbar-nav">
-						<li class="nav-item active"><a class="nav-link" href="#">home</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">about</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">contact</a></li>
-					</ul>
+					<!--<ul class="navbar-nav">
+						<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+						<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+					</ul>-->
 
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a href="#" class="nav-link">register</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">login</a></li>
-					</ul>	
-				</div>
+						<!--<li class="nav-item"><a href="#" class="nav-link">register</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">login</a></li>-->
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+						<li class="nav-item"><a href="#projectsSection" class="nav-link">Projects</a></li>
+						<li class="nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
+					</ul>
     </nav>
     <!--Page Contents-->
 
@@ -35,7 +37,7 @@
     <div class="container">
       <section class="about_container" id="about">
         <div class="container-fluid">
-          <h1 class="about_title">About me</h1>
+          <h1 class="about_title">Thong Nguyen</h1>
           <p>Aspiring Software Developer</p>
           <div class="about_description">
             <p>
@@ -50,7 +52,7 @@
       </section>
     </div>
     <hr>
-    <div class="container">
+    <div class="container" id="projectsSection">
       <section class="content_projects" id="projects">
         <div class="jumbotron jumbotron-fluid my-4">
           <div class="container mr-auto">
@@ -62,26 +64,31 @@
           <div class="col-sm-4">
             <div class="card">
               <div class="card-body">
-                <h2 class="card-title">heading</h2>
-                <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
-                <a href="" class="btn btn-primary">more details &raquo;</a>
+                <h2 class="card-title">Convex Hull Algorithms</h2>
+                <p class="card-text">Implemented the brute force and quick-hull algorithms to solve the convex hull problem in C++</p>
+                <a href="" class="btn btn-info">more details &raquo;</a>
               </div>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="card">
               <div class="card-body">
-                <h2 class="card-title">heading</h2>
-                <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
-                <a href="" class="btn btn-primary">more details &raquo;</a>
+                <h2 class="card-title">Patient/Provider Health System</h2>
+                <p class="card-text">
+                  Developed a mock database system using Java to be used by a fake Chocoholics Anonymous group. 
+                </p>
+                <a href="" class="btn btn-info">more details &raquo;</a>
               </div>
             </div>
           </div><div class="col-sm-4">
             <div class="card">
               <div class="card-body">
-                <h2 class="card-title">heading</h2>
-                <p class="card-text">vivamus felis odio, tristique posuere mollis ut, gravida et lorem. etiam a augue fermentum, auctor erat nec, porttitor magna. proin sit amet egestas purus. proin iaculis sed quam sit amet laoreet.</p>
-                <a href="" class="btn btn-primary">more details &raquo;</a>
+                <h2 class="card-title" style="margin-bottom: 50px;">Maze Game</h2>
+                <p class="card-text">
+                  Developed algorithm to generate different maze when user start a game using graph depth-first search
+                  algorithm in C++.
+                </p>
+                <a href="" class="btn btn-info">more details &raquo;</a>
               </div>
             </div>
           </div>
@@ -90,13 +97,18 @@
       </section>
     </div>
     <!--Container-->
-    <footer class="py-4 bg-dark">
-      <div class="container text-center">
-        <a href="https://github.com/tnguyen6106" target="_blank" rel="noopener" class="footer__icon">
-          <img src="../tnguyen6106.github.io/assets/github.svg" alt="github" class="github__icon">
-        </a>
-      </div>
-    </footer>
+    <section id="contacts">
+      <footer class="py-4 bg-info">
+        <div class="container text-center">
+          <a href="https://github.com/tnguyen6106/tnguyen6106.github.io" target="_blank" rel="noopener" class="footer__icon">
+            <img src="../tnguyen6106.github.io/assets/github.svg" alt="github" class="github__icon">
+          </a>
+          <a href="https://www.linkedin.com/in/tnguyen6106/" target="_blank" rel="noopener" class="footer__icon">
+            <img src="../tnguyen6106.github.io/assets/linkedin.svg" alt="linkedin" class="github__icon">
+          </a>
+        </div>
+      </footer>
+    </section>
 
 	</body>
 </html>
