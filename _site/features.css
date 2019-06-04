@@ -1,0 +1,101 @@
+
+.about_container {
+    background-color: white;
+    padding: 17rem 0 13rem 0;
+}
+.about_title {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.about_description {
+    padding-top: 1rem;
+}
+.navbar {
+    position: fixed;
+    margin-bottom:30px;
+}
+
+div.jumbotron {
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 0.3rem;
+}
+
+.content_projects {
+    background-color: white;
+    padding: 8rem 0 3rem 0;
+}
+
+.card {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 3rem;
+    /*padding-right: -100px;*/
+}
+
+.card-body {
+    position: relative;
+}
+.card-footer {
+    background:0%;
+    border-top: 0%;
+}
+
+.card-group {
+    margin-top: -20px;
+}
+
+.footer__icon {
+    border-radius: 5px;
+    height: 25px;
+    margin: 8px;
+    /*text-align: center;
+    display: block*/
+}
+
+.github__icon {
+    height: 25px;
+    width: 25px;
+    /*margin: 0px;*/
+    /*display: block;*/
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    padding: 1em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.projectTitle {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+body {
+    position: relative;
+}
+
+.make_bold {
+    font-weight: bold;
+}
+
+/*#navigation-bar {
+    background-color: #e3f2fd;
+}*/
+/*.card-body#heading1 {
+    margin-left: 15px;
+}
+
+.card-body#heading2 {
+    margin-left: -23px;
+}*/
+
+/*.btn {
+    padding-right: 50px;
+    width: 141px;
+}*/
